@@ -1,0 +1,11 @@
+C:\Users\Долгорукий\source\repos\QuestionsForStudents\QuestionsForStudents\bin\Debug\QuestionsForStudents.exe.config
+C:\Users\Долгорукий\source\repos\QuestionsForStudents\QuestionsForStudents\bin\Debug\QuestionsForStudents.exe
+C:\Users\Долгорукий\source\repos\QuestionsForStudents\QuestionsForStudents\bin\Debug\QuestionsForStudents.pdb
+C:\Users\Долгорукий\source\repos\QuestionsForStudents\QuestionsForStudents\obj\Debug\QuestionsForStudents.csproj.AssemblyReference.cache
+C:\Users\Долгорукий\source\repos\QuestionsForStudents\QuestionsForStudents\obj\Debug\QuestionsForStudents.Form1.resources
+C:\Users\Долгорукий\source\repos\QuestionsForStudents\QuestionsForStudents\obj\Debug\QuestionsForStudents.Properties.Resources.resources
+C:\Users\Долгорукий\source\repos\QuestionsForStudents\QuestionsForStudents\obj\Debug\QuestionsForStudents.csproj.GenerateResource.cache
+C:\Users\Долгорукий\source\repos\QuestionsForStudents\QuestionsForStudents\obj\Debug\QuestionsForStudents.csproj.CoreCompileInputs.cache
+C:\Users\Долгорукий\source\repos\QuestionsForStudents\QuestionsForStudents\obj\Debug\QuestionsForStudents.exe
+C:\Users\Долгорукий\source\repos\QuestionsForStudents\QuestionsForStudents\obj\Debug\QuestionsForStudents.pdb
+C:\Users\Долгорукий\source\repos\QuestionsForStudents\QuestionsForStudents\obj\Debug\QuestionsForStudents.Form2.resources
