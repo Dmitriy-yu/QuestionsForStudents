@@ -9,3 +9,4 @@ C:\Users\Долгорукий\source\repos\QuestionsForStudents\QuestionsForStud
 C:\Users\Долгорукий\source\repos\QuestionsForStudents\QuestionsForStudents\obj\Debug\QuestionsForStudents.exe
 C:\Users\Долгорукий\source\repos\QuestionsForStudents\QuestionsForStudents\obj\Debug\QuestionsForStudents.pdb
 C:\Users\Долгорукий\source\repos\QuestionsForStudents\QuestionsForStudents\obj\Debug\QuestionsForStudents.Form2.resources
+C:\Users\Долгорукий\source\repos\QuestionsForStudents\QuestionsForStudents\obj\Debug\QuestionsForStudents.Form3.resources

@@ -16,11 +16,16 @@ namespace QuestionsForStudents
         {
             InitializeComponent();
         }
-
         private void Form2_FormClosing(object sender, FormClosingEventArgs e)
         {
             e.Cancel = true;
             Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+          Form  form3 = new Form3();
+            form3.Show();
         }
     }
 }

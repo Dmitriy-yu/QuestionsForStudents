@@ -16,14 +16,18 @@ namespace QuestionsForStudents
         {
             InitializeComponent();
             form2 = new Form2();
+            textBox1.Text = "Mus";
+            textBox2.Text = "Mus";
         }
         Form2 form2;
         string login = "Mus";
-        string parol = "Veronica";
+        string parol = "Mus";
+       
         private void button1_Click(object sender, EventArgs e)
         {
-            string Log = textBox1.Text;
+           string Log = textBox1.Text;
            string Par = textBox2.Text;
+           
             if (Log==login&&Par==parol)
             {
                 form2.Show();
