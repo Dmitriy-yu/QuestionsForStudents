@@ -37,26 +37,27 @@ namespace QuestionsForStudents
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Location = new System.Drawing.Point(157, 15);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(287, 44);
+            this.button1.Size = new System.Drawing.Size(142, 41);
             this.button1.TabIndex = 0;
-            this.button1.Text = "1 класс (Вопросы)";
+            this.button1.Text = "Вопросы";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 62);
+            this.button2.Location = new System.Drawing.Point(12, 15);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(287, 41);
+            this.button2.Size = new System.Drawing.Size(139, 41);
             this.button2.TabIndex = 1;
-            this.button2.Text = "2 класс";
+            this.button2.Text = "Задания";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(12, 109);
+            this.button3.Location = new System.Drawing.Point(12, 73);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(287, 43);
             this.button3.TabIndex = 2;
@@ -65,7 +66,7 @@ namespace QuestionsForStudents
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(12, 158);
+            this.button4.Location = new System.Drawing.Point(12, 132);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(287, 46);
             this.button4.TabIndex = 3;
@@ -86,7 +87,7 @@ namespace QuestionsForStudents
             this.MaximizeBox = false;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Тестирование";
+            this.Text = "Самоучитель";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form2_FormClosing);
             this.ResumeLayout(false);
 
