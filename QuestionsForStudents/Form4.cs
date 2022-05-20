@@ -17,16 +17,47 @@ namespace QuestionsForStudents
         {
             InitializeComponent();
         }
+        string []files;
+        string[] files1;
+        int index;
 
         private void button1_Click(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image.FromFile(@"C:Картинки\s_govor2.jpg");
+            
+            pictureBox1.Image = new Bitmap(files[index++]);
+            if (index == files.Length)
+                index = 0;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image.FromFile(@"C:Картинки\IMG_9562.jpg");
+            pictureBox1.Image = new Bitmap(files1[index++]);
+            if (index==files1.Length)
+            {
+                index = 0;
+            }
         }
-    
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+            files = Directory.GetFiles(@"C:Картинки\1.Тема");
+            files1 = Directory.GetFiles(@"C:Картинки\2.Тема");
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+          
+            listBox1.Items.AddRange(File.ReadAllLines(@"C:Картинки\1.Посадка.txt", Encoding.UTF8));
+            //button3.Enabled = false;
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+
+            listBox1.Items.AddRange(File.ReadAllLines(@"C:Картинки\2.Учим ноты.txt", Encoding.UTF8));
+        }
     }
 }
