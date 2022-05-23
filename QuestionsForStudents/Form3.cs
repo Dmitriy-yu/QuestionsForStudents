@@ -13,7 +13,7 @@ namespace QuestionsForStudents
 {
     public partial class Form3 : Form
     {
-        SoundPlayer sp = new SoundPlayer("C:Баян, Полет Шмеля, Виртуоз (256  kbps) (1).wav");
+        SoundPlayer sp = new SoundPlayer(@"C:Вивальди.wav");
 
         public Form3()
         {
